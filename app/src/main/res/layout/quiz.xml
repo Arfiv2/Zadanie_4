@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#99ff33">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow>
+
+            <TextView
+                android:textSize="80px"
+                android:textColor="#f000"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Która to forma?"
+                android:textAlignment="center"
+                android:id="@+id/textView3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="fill_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img4"
+                android:tag="Goku" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <RadioGroup
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SSJ" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="dodaj"
+                    android:text="Base" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="fill_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img5"
+                android:tag="Goku"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SSJG" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="dodaj"
+                    android:text="SSJ" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="fill_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img6"
+                android:tag="Goku"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="dodaj"
+                    android:text="SSJ2" />
+
+                <RadioButton
+                    android:id="@+id/radioButton22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SSJ" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="fill_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img7"
+                android:tag="Goku"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Super SSJ" />
+
+                <RadioButton
+                    android:id="@+id/radioButton32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="dodaj"
+                    android:text="SSJ3" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="fill_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img8"
+                android:tag="Goku"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="dodaj"
+                    android:text="SSJG" />
+
+                <RadioButton
+                    android:id="@+id/radioButton42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SSJ" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="fill_parent"
+                android:adjustViewBounds="false"
+                android:cropToPadding="false"
+                android:padding="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/img9"
+                android:tag="Goku"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radioButton50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:onClick="dodaj"
+                    android:text="SSJB" />
+
+                <RadioButton
+                    android:id="@+id/radioButton52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SSJB Kaioken" />
+
+            </RadioGroup>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Wynik"
+                android:onClick="wynik"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Reset"
+                android:onClick="reset"/>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/button3"
+                android:onClick="Powrot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Wróć"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
